@@ -1,0 +1,29 @@
+
+.block{
+width: 300px;
+height: 300px;
+padding: 20px;
+margin: 30px;
+background-color: #a49f9f;
+}
+
+.text{
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.text:hover{
+  color: black;
+  animation: animation_text 3s linear infinite;
+}
+
+@keyframes animation_text {
+ 0%{
+  color: red;
+ } 
+ 100%{
+  color: black;
+ }
+}
