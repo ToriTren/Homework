@@ -1,0 +1,16 @@
+.menu{
+  display:flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.menu__item{
+  padding: 15px 10px;
+  border: 2px solid black;
+}
+
+.menu__item:hover:first-child{
+  color:red
+}
+
+
